@@ -1,12 +1,12 @@
 Summary:	802.11 WEP Encryption Cracking Tool
 Summary(pl):	Program do ³amania szyfrowania WEP dla protoko³u 802.11
 Name:		airsnort
-Version:	0.2.4a
+Version:	0.2.6
 Release:	0.1
 License:	GPL
 Group:		Networking
 Source0:	http://dl.sourceforge.net/airsnort/%{name}-%{version}.tar.gz
-# Source0-md5:	e07e3bd7f2a95b54140e8109a5bd512d
+# Source0-md5:	5a3081e1d07b5052b9a6092e03bf753d
 URL:		http://airsnort.shmoo.com/
 BuildRequires:	autoconf
 BuildRequires:	automake
