@@ -7,12 +7,12 @@ License:	GPL
 Group:		Networking
 Source0:	%{name}-%{version}.tar.gz
 URL:		http://airsnort.shmoo.com/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	libpcap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define         _prefix         /usr/X11R6
-%define         _mandir         %{_prefix}/man
 
 %description
 AirSnort is a wireless LAN (WLAN) tool that recovers encryption keys.
@@ -20,9 +20,10 @@ It operates by passively monitoring transmissions, computing the
 encryption key when enough packets have been gathered.
 
 %description -l pl
-AirSnort jest narzêdziem dla sieci bezprzewodowych (WLAN) do
-uzyskiwania kluczy szyfrowania. Dzia³a pasywnie monitoruj±c transmisjê
-i obliczaj±c klucz po przechwyceniu wystarczaj±cej ilo¶ci pakietów.
+AirSnort jest narzêdziem dla sieci bezprzewodowych (WLAN) pozwalaj±cym
+na uzyskiwanie kluczy szyfrowania. Dzia³a pasywnie monitoruj±c
+transmisjê i obliczaj±c klucz po przechwyceniu wystarczaj±cej ilo¶ci
+pakietów.
 
 %prep
 %setup -q
