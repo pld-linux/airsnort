@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/airsnort/%{name}-%{version}.tar.gz
 URL:		http://airsnort.shmoo.com/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gtk+-devel
+BuildRequires:	gtk+2-devel
 BuildRequires:	libpcap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
