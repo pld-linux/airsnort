@@ -5,7 +5,7 @@ Version:	0.2.1b
 Release:	0
 License:	GPL
 Group:		Networking
-Source0:	%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/airsnort/%{name}-%{version}.tar.gz
 URL:		http://airsnort.shmoo.com/
 BuildRequires:	autoconf
 BuildRequires:	automake
