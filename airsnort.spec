@@ -1,5 +1,5 @@
 Summary:	802.11 WEP Encryption Cracking Tool
-Summary(pl):	Program do ³amania szyfrowania WEP dla protoko³u 802.11
+Summary(pl.UTF-8):   Program do Å‚amania szyfrowania WEP dla protokoÅ‚u 802.11
 Name:		airsnort
 Version:	0.2.7e
 Release:	0.1
@@ -20,11 +20,11 @@ AirSnort is a wireless LAN (WLAN) tool that recovers encryption keys.
 It operates by passively monitoring transmissions, computing the
 encryption key when enough packets have been gathered.
 
-%description -l pl
-AirSnort jest narzêdziem dla sieci bezprzewodowych (WLAN) pozwalaj±cym
-na uzyskiwanie kluczy szyfrowania. Dzia³a pasywnie monitoruj±c
-transmisjê i obliczaj±c klucz po przechwyceniu wystarczaj±cej ilo¶ci
-pakietów.
+%description -l pl.UTF-8
+AirSnort jest narzÄ™dziem dla sieci bezprzewodowych (WLAN) pozwalajÄ…cym
+na uzyskiwanie kluczy szyfrowania. DziaÅ‚a pasywnie monitorujÄ…c
+transmisjÄ™ i obliczajÄ…c klucz po przechwyceniu wystarczajÄ…cej iloÅ›ci
+pakietÃ³w.
 
 %prep
 %setup -q
