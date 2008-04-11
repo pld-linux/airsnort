@@ -7,6 +7,7 @@ License:	GPL v2
 Group:		Networking
 Source0:	http://dl.sourceforge.net/airsnort/%{name}-%{version}.tar.gz
 # Source0-md5:	8f852bd872fa7d352c14781010c25ef4
+Patch0:		%{name}-includes.patch
 URL:		http://airsnort.shmoo.com/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -28,6 +29,7 @@ pakietów.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__aclocal}
